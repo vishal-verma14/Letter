@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Letter</string>
+    <string name="title_activity_main_panel">MainPanel</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bank">BANK</string>
+    <string name="title_activity_corporate">Corporate</string>
+    <string name="title_activity_education">Education</string>
+    <string name="title_activity_user_information">UserInformation</string>
+</resources>

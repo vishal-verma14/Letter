@@ -39,11 +39,7 @@ public class EducationRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.
             public void onClick(View v) {
                  Position = getAdapterPosition();
 
-                if (Position == 0) {
-                    v.getContext().startActivity(new Intent(context, BANK.class));
-                }else if (Position == 1){
-                    v.getContext().startActivity(new Intent(context, Corporate.class));
-                }else if (Position == 2){
+                if (Position == 0){
                     v.getContext().startActivity(new Intent(context, Education.class));             }
 
             }

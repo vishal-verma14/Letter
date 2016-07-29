@@ -40,12 +40,10 @@ public class BankRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
                  Position = getAdapterPosition();
 
                 if (Position == 0) {
-                    v.getContext().startActivity(new Intent(context, BANK.class));
+                    v.getContext().startActivity(new Intent(context, Loan.class));
                 }else if (Position == 1){
-                    v.getContext().startActivity(new Intent(context, Corporate.class));
-                }else if (Position == 2){
-                    v.getContext().startActivity(new Intent(context, Education.class));             }
-
+                    v.getContext().startActivity(new Intent(context, DraftCancellation.class));
+                }
             }
         });
     }

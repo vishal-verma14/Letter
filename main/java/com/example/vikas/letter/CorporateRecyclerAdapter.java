@@ -40,11 +40,10 @@ public class CorporateRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.
                  Position = getAdapterPosition();
 
                 if (Position == 0) {
-                    v.getContext().startActivity(new Intent(context, BANK.class));
+                    v.getContext().startActivity(new Intent(context, Job_Application.class));
                 }else if (Position == 1){
-                    v.getContext().startActivity(new Intent(context, Corporate.class));
-                }else if (Position == 2){
-                    v.getContext().startActivity(new Intent(context, Education.class));             }
+                    v.getContext().startActivity(new Intent(context, Leave_Application.class));
+                }
 
             }
         });

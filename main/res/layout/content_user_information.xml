@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="75dp"
             android:hint="PHONE_NO"
-            android:inputType="phone"/>
+            />
 
     </android.support.design.widget.TextInputLayout>
 
@@ -75,19 +75,19 @@
 
 
     <Button
-        android:layout_width="250dp"
+        android:layout_width="150dp"
         android:layout_height="75dp"
         android:elevation="5dp"
         android:layout_margin="5dp"
-
+        android:id="@+id/save"
         android:background="@android:color/holo_blue_light"
         android:layout_below="@+id/phone_no"
         android:gravity="center_vertical|center"
         android:text="SAVE"
-
         android:textSize="50dp"
-
-android:layout_gravity="center|bottom|center_vertical|center_horizontal"
+        android:textColor="@color/White"
+        android:layout_gravity="center|bottom|center_vertical|center_horizontal"
         android:layout_centerHorizontal="true"/>
+
 
 </LinearLayout>

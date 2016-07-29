@@ -10,4 +10,7 @@
     <string name="title_activity_corporate">Corporate</string>
     <string name="title_activity_education">Education</string>
     <string name="title_activity_user_information">UserInformation</string>
+    <string name="title_activity_loan">Loan</string>
+    <string name="demand_draft_cancellation">demand draft cancellation</string>
+    <string name="Job_Application">Job Application</string>
 </resources>

@@ -7,7 +7,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="true">
         <activity
             android:name=".MainPanel"
             android:theme="@style/AppTheme.NoActionBar">
@@ -57,7 +58,45 @@
         <activity
             android:name=".UserInformation"
             android:label="@string/title_activity_user_information"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Loan"
+            android:label="@string/title_activity_loan"
+            android:parentActivityName=".BANK"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.vikas.letter.BANK" />
+        </activity>
+        <activity
+            android:name=".DraftCancellation"
+            android:label="@string/demand_draft_cancellation"
+            android:parentActivityName=".BANK"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.vikas.letter.BANK" />
+        </activity>
+        <activity
+            android:name=".Job_Application"
+            android:label="@string/Job_Application"
+            android:parentActivityName=".Corporate"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.vikas.letter.Corporate" />
+        </activity>
+        <activity
+            android:name=".Leave_Application"
+            android:label="Leave Application"
+            android:parentActivityName=".Corporate"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.vikas.letter.Corporate" />
+        </activity>
+
+
     </application>
 
 </manifest>

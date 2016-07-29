@@ -25,7 +25,7 @@ getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(getApplication(),UserInformation.class));
+                startActivity(new Intent(getApplication(),MainPanel.class));
 
             }
         },DELAY_TIME);
